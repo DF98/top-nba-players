@@ -63,9 +63,9 @@ function App() {
 
   return (
     <div>
-      <h1>NBA Rosters</h1>
+      <h1>NBA Players</h1>
       <h2>You have selected:</h2>
-      <p>{player1.first_name}</p>
+      <p>{player1.first_name} {player1.last_name}</p>
         {playerIDs.map((player) => {
           return <button key={player.id} onClick={((e) => {setP1ID(player.id)})}>{player.name}</button>
           console.log(player)

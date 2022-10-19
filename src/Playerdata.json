@@ -1,89 +1,404 @@
 {
     "players": [
-        {"id": 15, "name":"Giannis Antetokounmpo"},
-        {"id": 192, "name":"Kevin Durant"},
-        {"id": 228, "name":"Stephen Curry"},
-        {"id": 447, "name":"Lebron James"},
-        {"id": 125, "name":"Nikola Jokic"},
-        {"id": 322, "name":"Joel Embiid"},
-        {"id": 172, "name":"Luka Doncic"},
-        {"id": 268, "name":"Kawhi Leonard"},
-        {"id": 176, "name":"Ja Morant"},
-        {"id": 666969, "name":"Jayson Tatum"},
-        {"id": 3547239, "name":"Jimmy Butler"},
-        {"id": 666581, "name":"Devin Booker"},
-        {"id": 37, "name":"Chris Paul"},
-        {"id": 70, "name":"Trae Young"},
-        {"id": 4, "name":"Anthony Davis"},
-        {"id": 175, "name":"Damian Lillard"},
-        {"id": 3547238, "name":"James Harden"},
-        {"id": 227, "name":"Kyrie Irving"},
-        {"id": 334, "name":"Karl-Anthony Towns"},
-        {"id": 416, "name":"DeMar DeRozan"},
-        {"id": 315, "name":"Donovan Mitchell"},
-        {"id": 406, "name":"Paul George"},
-        {"id": 214, "name":"Zach LaVine"},
-        {"id": 3547254 , "name":"Rudy Gobert"},
-        {"id": 378, "name":"Zion Williamson"},
-        {"id": 303, "name":"LaMelo Ball"},
-        {"id": 22, "name":"Darius Garland"},
-        {"id": 9, "name":"Bradley Beal"},
-        {"id": 476, "name":"Jaylen Brown"},
-        {"id": 17896076, "name":"Bam Adebayo"},
-        {"id": 17896075, "name":"Shai Gilgeous-Alexander"},
-        {"id": 17896055, "name":"Anthony Edwards"},
-        {"id": 3547245, "name":"Brandon Ingram"},
-        {"id": 666633, "name":"Dejounte Murray"},
-        {"id": 666423, "name":"Pascal Siakam"},
-        {"id": 335, "name":"Khris Middleton"},
-        {"id": 475, "name":"Domantas Sabonis"},
-        {"id": 161, "name":"Jrue Holiday"},
-        {"id": 83, "name":"Tyrese Maxey"},
-        {"id": 486, "name":"Kristaps Porzingis"},
-        {"id": 185, "name":"C.J. McCollum"},
-        {"id": 231, "name":"Deandre Ayton"},
-        {"id": 17, "name":"Jarrett Allen"},
-        {"id": 61, "name":"Robert Williams III"},
-        {"id": 666848, "name":"Evan Mobley"},
-        {"id": 3547287, "name":"Cade Cunningham"},
-        {"id": 73, "name":"Scottie Barnes"},
-        {"id": 62, "name":"Tyrese Haliburton"},
-        {"id": 460, "name":"Tyler Herro"},
-        {"id": 458, "name":"R.J. Barrett"},
-        {"id": 101, "name":"Jamal Murray"},
-        {"id": 455, "name":"Andrew Wiggins"},
-        {"id": 85, "name":"De’Aaron Fox"},
-        {"id": 17895966, "name":"Clint Capela"},
-        {"id": 17896065, "name":"Christian Wood"},
-        {"id": 27, "name":"Draymond Green"},
-        {"id": 286, "name":"Jaren Jackson Jr."},
-        {"id": 405, "name":"Ben Simmons"},
-        {"id": 387, "name":"Mikal Bridges"},
-        {"id": 200, "name":"Jordan Poole"},
-        {"id": 65, "name":"Desmond Bane"},
-        {"id": 666682, "name":"Jalen Brunson"},
-        {"id": 104, "name":"Miles Bridges"},
-        {"id": 3, "name":"Nikola Vucevic"},
-        {"id": 420, "name":"Fred VanVleet"},
-        {"id": 403, "name":"John Collins"},
-        {"id": 182, "name":"Jonas Valanciunas"},
-        {"id": 219, "name":"Wendell Carter Jr."},
-        {"id": 452, "name":"Jalen Green"},
-        {"id": 18, "name":"Josh Giddey"},
-        {"id": 401, "name":"Lonzo Ball"},
-        {"id": 399, "name":"Kyle Lowry"},
-        {"id": 265, "name":"D’Angelo Russell"},
-        {"id": 17896026, "name":"Julius Randle"},
-        {"id": 375, "name":"Tobias Harris"},
-        {"id": 3547256, "name":"Malcolm Brogdon"},
-        {"id": 419, "name":"Keldon Johnson"},
-        {"id": 204, "name":"Mike Conley"},
-        {"id": 285, "name":"Steven Adams"},
-        {"id": 377, "name":"Marcus Smart"},
-        {"id": 130, "name":"Terry Rozier III"},
-        {"id": 666679, "name":"Jerami Grant"},
-        {"id": 30, "name":"Jusuf Nurkic"},
-        {"id": 66, "name":"Al Horford"}
+        {
+            "id": 15,
+            "name": "Giannis Antetokounmpo"
+        },
+        {
+            "id": 140,
+            "name": "Kevin Durant"
+        },
+        {
+            "id": 115,
+            "name": "Stephen Curry"
+        },
+        {
+            "id": 237,
+            "name": "Lebron James"
+        },
+        {
+            "id": 246,
+            "name": "Nikola Jokic"
+        },
+        {
+            "id": 145,
+            "name": "Joel Embiid"
+        },
+        {
+            "id": 132,
+            "name": "Luka Doncic"
+        },
+        {
+            "id": 274,
+            "name": "Kawhi Leonard"
+        },
+        {
+            "id": 666786,
+            "name": "Ja Morant"
+        },
+        {
+            "id": 434,
+            "name": "Jayson Tatum"
+        },
+        {
+            "id": 79,
+            "name": "Jimmy Butler"
+        },
+        {
+            "id": 57,
+            "name": "Devin Booker"
+        },
+        {
+            "id": 367,
+            "name": "Chris Paul"
+        },
+        {
+            "id": 490,
+            "name": "Trae Young"
+        },
+        {
+            "id": 117,
+            "name": "Anthony Davis"
+        },
+        {
+            "id": 278,
+            "name": "Damian Lillard"
+        },
+        {
+            "id": 192,
+            "name": "James Harden"
+        },
+        {
+            "id": 228,
+            "name": "Kyrie Irving"
+        },
+        {
+            "id": 447,
+            "name": "Karl-Anthony Towns"
+        },
+        {
+            "id": 125,
+            "name": "DeMar DeRozan"
+        },
+        {
+            "id": 322,
+            "name": "Donovan Mitchell"
+        },
+        {
+            "id": 172,
+            "name": "Paul George"
+        },
+        {
+            "id": 268,
+            "name": "Zach LaVine"
+        },
+        {
+            "id": 176,
+            "name": "Rudy Gobert"
+        },
+        {
+            "id": 666969,
+            "name": "Zion Williamson"
+        },
+        {
+            "id": 3547239,
+            "name": "LaMelo Ball"
+        },
+        {
+            "id": 666581,
+            "name": "Darius Garland"
+        },
+        {
+            "id": 37,
+            "name": "Bradley Beal"
+        },
+        {
+            "id": 70,
+            "name": "Jaylen Brown"
+        },
+        {
+            "id": 4,
+            "name": "Bam Adebayo"
+        },
+        {
+            "id": 175,
+            "name": "Shai Gilgeous-Alexander"
+        },
+        {
+            "id": 3547238,
+            "name": "Anthony Edwards"
+        },
+        {
+            "id": 227,
+            "name": "Brandon Ingram"
+        },
+        {
+            "id": 334,
+            "name": "Dejounte Murray"
+        },
+        {
+            "id": 416,
+            "name": "Pascal Siakam"
+        },
+        {
+            "id": 315,
+            "name": "Khris Middleton"
+        },
+        {
+            "id": 406,
+            "name": "Domantas Sabonis"
+        },
+        {
+            "id": 214,
+            "name": "Jrue Holiday"
+        },
+        {
+            "id": 3547254,
+            "name": "Tyrese Maxey"
+        },
+        {
+            "id": 378,
+            "name": "Kristaps Porzingis"
+        },
+        {
+            "id": 303,
+            "name": "C.J. McCollum"
+        },
+        {
+            "id": 22,
+            "name": "Deandre Ayton"
+        },
+        {
+            "id": 9,
+            "name": "Jarrett Allen"
+        },
+        {
+            "id": 476,
+            "name": "Robert Williams III"
+        },
+        {
+            "id": 17896076,
+            "name": "Evan Mobley"
+        },
+        {
+            "id": 17896075,
+            "name": "Cade Cunningham"
+        },
+        {
+            "id": 17896055,
+            "name": "Scottie Barnes"
+        },
+        {
+            "id": 3547245,
+            "name": "Tyrese Haliburton"
+        },
+        {
+            "id": 666633,
+            "name": "Tyler Herro"
+        },
+        {
+            "id": 666423,
+            "name": "R.J. Barrett"
+        },
+        {
+            "id": 335,
+            "name": "Jamal Murray"
+        },
+        {
+            "id": 475,
+            "name": "Andrew Wiggins"
+        },
+        {
+            "id": 161,
+            "name": "De’Aaron Fox"
+        },
+        {
+            "id": 83,
+            "name": "Clint Capela"
+        },
+        {
+            "id": 486,
+            "name": "Christian Wood"
+        },
+        {
+            "id": 443,
+            "name": "Klay Thompson"
+        },
+        {
+            "id": 185,
+            "name": "Draymond Green"
+        },
+        {
+            "id": 231,
+            "name": "Jaren Jackson Jr."
+        },
+        {
+            "id": 417,
+            "name": "Ben Simmons"
+        },
+        {
+            "id": 61,
+            "name": "Mikal Bridges"
+        },
+        {
+            "id": 666848,
+            "name": "Jordan Poole"
+        },
+        {
+            "id": 3547287,
+            "name": "Desmond Bane"
+        },
+        {
+            "id": 73,
+            "name": "Jalen Brunson"
+        },
+        {
+            "id": 62,
+            "name": "Miles Bridges"
+        },
+        {
+            "id": 460,
+            "name": "Nikola Vucevic"
+        },
+        {
+            "id": 458,
+            "name": "Fred VanVleet"
+        },
+        {
+            "id": 101,
+            "name": "John Collins"
+        },
+        {
+            "id": 455,
+            "name": "Jonas Valanciunas"
+        },
+        {
+            "id": 85,
+            "name": "Wendell Carter Jr."
+        },
+        {
+            "id": 17895966,
+            "name": "Jalen Green"
+        },
+        {
+            "id": 17896065,
+            "name": "Josh Giddey"
+        },
+        {
+            "id": 27,
+            "name": "Lonzo Ball"
+        },
+        {
+            "id": 286,
+            "name": "Kyle Lowry"
+        },
+        {
+            "id": 405,
+            "name": "D'Angelo Russell"
+        },
+        {
+            "id": 387,
+            "name": "Julius Randle"
+        },
+        {
+            "id": 200 ,
+            "name": "Tobias Harris"
+        },
+        {
+            "id": 65 ,
+            "name": "Malcolm Brogdon"
+        },
+        {
+            "id": 65,
+            "name": "Keldon Johnson"
+        },
+        {
+            "id": 104,
+            "name": "Mike Conley"
+        },
+        {
+            "id": 3,
+            "name": "Steven Adams"
+        },
+        {
+            "id": 420 ,
+            "name": "Marcus Smart"
+        },
+        {
+            "id": 403 ,
+            "name": "Terry Rozier"
+        },
+        {
+            "id": 182,
+            "name": "Jerami Grant"
+        },
+        {
+            "id": 349,
+            "name": "Jusuf Nurkic"
+        },
+        {
+            "id": 219,
+            "name": "Al Horford"
+        },
+        {
+            "id": 452,
+            "name": "Myles Turner"
+        },
+        {
+            "id": 18,
+            "name": "OG Anunoby"
+        },
+        {
+            "id": 401,
+            "name": "Derrick Rose"
+        },
+        {
+            "id": 399,
+            "name": "Mitchell Robinson"
+        },
+        {
+            "id": 265,
+            "name": "Kyle Kuzma"
+        },
+        {
+            "id": 17896026,
+            "name": "Franz Wagner"
+        },
+        {
+            "id": 375,
+            "name": "Michael Porter Jr."
+        },
+        {
+            "id": 3547256,
+            "name": "Saddiq Bey"
+        },
+        {
+            "id": 419,
+            "name": "Anfernee Simons"
+        },
+        {
+            "id": 204,
+            "name": "Gordon Hayward"
+        },
+        {
+            "id": 285,
+            "name": "Kevin Love"
+        },
+        {
+            "id": 377,
+            "name": "Bobby Portis"
+        },
+        {
+            "id": 130,
+            "name": "Spencer Dinwiddie"
+        },
+        {
+            "id": 666679,
+            "name": "Cameron Johnson"
+        },
+        {
+            "id": 30,
+            "name": "Harrison Barnes"
+        }
     ]
-    }
-    
+}
