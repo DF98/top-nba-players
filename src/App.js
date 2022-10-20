@@ -11,7 +11,11 @@ function App() {
   const playerIDs = playerData.players
   const [player1ID, setP1ID] = useState(0)
 
-  const [player1, setPlayer1] = useState({})
+  const [player1, setPlayer1] = useState({
+    first_name: "",
+    last_name: "",
+    team:{full_name: ""}
+  })
   const [playerImg, setPlayerImg] =useState(0)
 
   const options = {
@@ -36,9 +40,9 @@ function App() {
 
   return (
     <div>
-      <div className="bg-slate-200 grid grid-rows-2">
+      <div className="flex flex-wrap bg-slate-200">
         <PlayerCard player={player1} img={playerImg}/>
-        <div className="grid gap-4 grid-cols-10">
+        <div className="grid gap-4 grid-cols-3 sm:grid-cols-5 md:grid-cols-10">
           {playerIDs.map((player) => {
             return <button className="rounded-full bg-slate-500" key={player.id} onClick={((e) => {
                setP1ID(player.id);
