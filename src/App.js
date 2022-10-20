@@ -4,6 +4,7 @@ import Api from './Api.js';
 // import PlayersTable from './PlayersTable';
 import React from 'react';
 import playerData from './Playerdata.json'
+import PlayerCard from './PlayerCard';
 
 function App() {
   const [ps, setPS] = useState([])
@@ -11,7 +12,7 @@ function App() {
   const [player1ID, setP1ID] = useState(0)
 
   const [player1, setPlayer1] = useState({})
-  const [player2, setPlayer2] = useState(playerIDs[1])
+  const [playerImg, setPlayerImg] =useState(0)
 
   const options = {
     method: 'GET',
@@ -21,57 +22,37 @@ function App() {
     }
   }
 
-  // useEffect(() => {
-  //   setPS(playerIDs.map( p => {
-  //     fetch(`https://free-nba.p.rapidapi.com/players/${p.id}`,options)
-  //     .then(r => r.json())
-  //     .then(d => p = d )
-  //     .catch(err => console.log(err))
-
-  //   }
-  //   ))
-  // },[])
-
   useEffect(() => {
 
-      fetch(`https://free-nba.p.rapidapi.com/players/${player1ID}`, options)
-        .then(response => response.json())
-        .then((data) => {
-          setPlayer1(data)
-          console.log(data)
-        })
-        .catch(err => console.error(err));
-  
+    fetch(`https://free-nba.p.rapidapi.com/players/${player1ID}`, options)
+      .then(response => response.json())
+      .then((data) => {
+        setPlayer1(data)
+        console.log(data)
+      })
+      .catch(err => console.error(err));
+
   }, [player1ID])
-
-  // const playerIDs = playerData.players
-  // let players = []
-  // const [nbaData, setNbaData] = useState([])
-
-
-
-  // const fetchPlayers = (players) => {
-  //   for (const player of players) {
-  //     fetch(`https://free-nba.p.rapidapi.com/players/${player.id}`, options)
-  //       .then(response => response.json())
-  //       .then(data => players.push(data))
-  //       .catch(err => console.error(err));
-  //   }
-  // }
-
-  // useEffect(fetchPlayers(playerIDs), [])
 
   return (
     <div>
-      <h1>NBA Players</h1>
-      <h2>You have selected:</h2>
-      <p>{player1.first_name} {player1.last_name}</p>
-        {playerIDs.map((player) => {
-          return <button key={player.id} onClick={((e) => {setP1ID(player.id)})}>{player.name}</button>
-          console.log(player)
-        })}
+      <div className="bg-slate-200 grid grid-rows-2">
+        <PlayerCard player={player1} img={playerImg}/>
+        <div className="grid gap-4 grid-cols-10">
+          {playerIDs.map((player) => {
+            return <button className="rounded-full bg-slate-500" key={player.id} onClick={((e) => {
+               setP1ID(player.id);
+               setPlayerImg(player.imgID) 
+              })}>{player.name}
+              </button>
+          })}
+        </div>
+      </div>
     </div>
-  );
+
+
+
+  )
 }
 
 export default App;
