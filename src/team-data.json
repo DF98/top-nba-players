@@ -1,0 +1,187 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "abbreviation": "ATL",
+        "colourRight":"red-700",
+        "colourLeft": "red-50",
+        "accent": "red-700"
+      },
+      {
+        "id": 2,
+        "abbreviation":"BOS",
+        "colourRight":"green-500",
+        "colourLeft": "green-50",
+        "accent": "blue-700"
+      },
+      {
+        "id": 3,
+        "abbreviation": "BKN",
+        "colourRight":"zinc-800",
+        "colourLeft": "white"
+      },
+      {
+        "id": 4,
+        "abbreviation": "CHA",
+        "colourRight":"cyan-400",
+        "colourLeft": "indigo-700"
+      },
+      {
+        "id": 5,
+        "abbreviation": "CHI",
+        "colourRight":"red-600",
+        "colourLeft": "white"
+        
+      },
+      {
+        "id": 6,
+        "abbreviation": "CLE",
+        "colourRight":"amber-900",
+        "colourLeft": "amber-400"
+      },
+      {
+        "id": 7,
+        "abbreviation": "DAL",
+        "colourRight":"blue-800",
+        "colourLeft": "blue-50"
+      },
+      {
+        "id": 8,
+        "abbreviation": "DEN",
+        "colourRight":"blue-600",
+        "colourLeft": "yellow-300"
+      },
+      {
+        "id": 9,
+        "abbreviation": "DET",
+        "colourRight":"blue-600",
+        "colourLeft": "red-600"
+      },
+      {
+        "id": 10,
+        "abbreviation": "GSW",
+        "colourRight":"blue-700",
+        "colourLeft": "yellow-400"
+      },
+      {
+        "id": 11,
+        "abbreviation": "HOU",
+        "colourRight":"red-600",
+        "colourLeft": "red-50"
+      },
+      {
+        "id": 12,
+        "abbreviation": "IND",
+        "colourRight":"blue-900",
+        "colourLeft": "yellow-500"
+      },
+      {
+        "id": 13,
+        "abbreviation": "LAC",
+        "colourRight":"red-600",
+        "colourLeft": "blue-600"
+      },
+      {
+        "id": 14,
+        "abbreviation": "LAL",
+        "colourRight":"purple-600",
+        "colourLeft": "yellow-400"
+      },
+      {
+        "id": 15,
+        "abbreviation": "MEM",
+        "colourRight":"sky-900",
+        "colourLeft": "yellow-500"
+      },
+      {
+        "id": 16,
+        "abbreviation": "MIA",
+        "colourRight":"rose-800",
+        "colourLeft": "zinc-900"
+      },
+      {
+        "id": 17,
+        "abbreviation": "MIL",
+        "colourRight":"emerald-800",
+        "colourLeft": "emerald-50"
+      },
+      {
+        "id": 18,
+        "abbreviation": "MIN",
+        "colourRight":"sky-900",
+        "colourLeft": "lime-400"
+      },
+      {
+        "id": 19,
+        "abbreviation": "NOP",
+        "colourRight":"blue-900",
+        "colourLeft": "yellow 700"
+      },
+      {
+        "id": 20,
+        "abbreviation": "NYK",
+        "colourRight":"blue-800",
+        "colourLeft": "orange-500"
+      },
+      {
+        "id": 21,
+        "abbreviation": "OKC",
+        "colourRight":"sky-500",
+        "colourLeft": "orange-500"
+      },
+      {
+        "id": 22,
+        "abbreviation": "ORL",
+        "colourRight":"blue-700",
+        "colourLeft": "blue-50"
+      },
+      {
+        "id": 23,
+        "abbreviation": "PHI",
+        "colourRight":"blue-600",
+        "colourLeft": "red-600"
+      },
+      {
+        "id": 24,
+        "abbreviation": "PHX",
+        "colourRight":"purple-700",
+        "colourLeft": "orange-500"
+      },
+      {
+        "id": 25,
+        "abbreviation": "POR",
+        "colourRight":"red-700",
+        "colourLeft": "stone-900"
+      },
+      {
+        "id": 26,
+        "abbreviation": "SAC",
+        "colourRight":"violet-800",
+        "colourLeft": "violet-50"
+      },
+      {
+        "id": 27,
+        "abbreviation": "SAS",
+        "colourRight":"stone-900",
+        "colourLeft": "white"
+      },
+      {
+        "id": 28,
+        "abbreviation": "TOR",
+        "colourRight":"rose-900",
+        "colourLeft": "stone-900"
+      },
+      {
+        "id": 29,
+        "abbreviation": "UTA",
+        "colourRight":"green-800",
+        "colourLeft": "blue-900"
+      },
+      {
+        "id": 30,
+        "abbreviation": "WAS",
+        "colourRight":"blue-800",
+        "colourLeft": "red-800"
+      }
+    ]
+  }
