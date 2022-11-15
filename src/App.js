@@ -8,16 +8,15 @@ import PlayerCard from './PlayerCard';
 import PlayerSelect from './PlayerSelect';
 
 function App() {
-  const [ps, setPS] = useState([])
   const playerIDs = playerData.players
   const [playerID, setPID] = useState(0)
-  const [playerImg, setPlayerImg] =useState(0)
+  const [playerImg, setPlayerImg] = useState(0)
   const [player, setPlayer] = useState({
     first_name: "",
     last_name: "",
-    team:{full_name: ""}
+    team: { full_name: "" }
   })
-  
+
 
   const options = {
     method: 'GET',
@@ -39,14 +38,15 @@ function App() {
 
   const handleClick = (e) => {
     setPID(player.id);
-    setPlayerImg(player.imgID) 
-   }
+    setPlayerImg(player.imgID)
+  }
 
   return (
-    <div>
-      <div className="flex flex-wrap bg-slate-200">
-        <PlayerCard player={player} img={playerImg}/>
-        <PlayerSelect setPID={setPID} setPlayerImg={setPlayerImg}topPlayers={playerIDs} />
+    <div className="bg-slate-200 h-screen">
+      <h1 className="text-5xl text-center py-10">Top 100 NBA Players</h1>
+      <div className="flex flex-col bg-slate-200 ">
+        <PlayerCard player={player} img={playerImg} />
+        <PlayerSelect setPID={setPID} setPlayerImg={setPlayerImg} topPlayers={playerIDs} />
       </div>
     </div>
 
