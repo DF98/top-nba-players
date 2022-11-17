@@ -1,4 +1,3 @@
-#Top NBA Players
+# Top 100 NBA Players
 
-##Description
-View details of the top 100 NBA players!
+Simple React App that lets you select from the top 100 NBA players and view basic details about them. 
